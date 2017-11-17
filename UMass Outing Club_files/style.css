@@ -74,7 +74,7 @@ body {
 }
 
 #advisory  {
- padding-left:0; 
+ padding-left:0;
  text-align:left;
  display:inline-block;
 }
@@ -370,11 +370,11 @@ input.red {
     }
 }
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 500px) {
     tr.smallerTH {
         font-size: 50%;
     }
-    
+
     .logincard {
         float:left;
         margin-bottom: 5vh;
@@ -383,22 +383,22 @@ input.red {
     .logina{
         margin-top:-30vh;
     }
-    
+
     .resize{
-        width: 100% !important; 
+        width: 100% !important;
         margin-bottom: 3vh !important;
     }
-    
+
     .mobileheader{
         margin-left: 20%;
         margin-right: 20%;
         margin-top:0%;
     }
-    
+
     .editingForm td {
         font-size: 48%;
     }
-    
+
     .iconWrapper {
         padding-top: 1vh;
         background-color: white;
@@ -408,10 +408,10 @@ input.red {
         float: right;
         border-radius: 100px / 50px;
     }
-    
+
     .spacemobile{
         margin-left:auto;
-        margin-right:auto; 
+        margin-right:auto;
         width:5% !important;
     }
     .infocard {
@@ -457,7 +457,7 @@ input.red {
         float:left;
         margin-top:-30vh;
         margin-right: 0%;
-        
+
     }
     .logina{
         margin-left: 5%;
@@ -470,7 +470,7 @@ input.red {
         float:left;
         margin-top:-30vh;
         margin-right: 0%;
-        
+
     }
     .logina{
         margin-left: 5%;
@@ -489,7 +489,7 @@ input.red {
     .reduce {
         margin-left: 0% !important;
     }
-    
+
     .logincard {
         float:left;
         margin-bottom: 5vh;
@@ -500,10 +500,10 @@ input.red {
     }
     .spacedesk{
         margin-left:auto;
-        margin-right:auto; 
+        margin-right:auto;
         width:2% !important;
     }
-    
+
     .deskheader{
         margin-left: 5.5% !important;
         margin-top:0%;
@@ -514,11 +514,11 @@ input.red {
         float:left;
     }
     .profhead{
-        margin-left:5%; 
+        margin-left:5%;
         width:100%;
         margin-top:13vh;
     }
-    
+
     .shiftdown{
         max-width:80%;
         margin-top: 20% !important;
@@ -526,8 +526,8 @@ input.red {
     .resize{
         width: 45% !important;
     }
-    
-    
+
+
 }
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */

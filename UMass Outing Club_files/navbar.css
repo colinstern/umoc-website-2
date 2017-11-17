@@ -16,10 +16,10 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
     /*hidden originally*/
     display: none !important;
     z-index: 1;
-    position:absolute; 
+    position:absolute;
     /*temporary fix*/
     margin-top:3.5em;
-    
+
 }
 
 .drop_content a{
@@ -42,7 +42,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
 .drop_content a:hover {
     background-color: #1A237E;
     color: white;
-    
+
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1175px) {
@@ -64,7 +64,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
     .mdl-layout__header-row .mdl-navigation__link {
         padding: 0 16px !important;
         font-size: 18px;
-        font-weight: 500; 
+        font-weight: 500;
     }
     #menucol {
         position: fixed;
@@ -74,17 +74,17 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         height: 12vh;
         width: 100%;
     }
-        
-    
+
+
     #fullRow {
         margin: 0;
         margin-top: 45vh;
     }
-    
+
     .mobile_navbar {
         display: none;
     }
-    
+
     .container-fluid {
         padding-right: 0;
         padding-left: 0;
@@ -99,7 +99,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         padding: 0.5em;
         height: 5em;
     }
-    
+
     #logoutButton {
         padding-left: .75em;
         padding-right: .75em;
@@ -128,7 +128,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         padding-top: 1.35em;
         padding-bottom: 1.1em;
     }
-    
+
     .navpages ul a:active {
         color: #FFFFFF;
     }
@@ -163,7 +163,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
 }
 
 @media only screen and (max-width: 1024px) {
-    
+
     #menucol {
         position: fixed;
         background-color: white;
@@ -172,16 +172,16 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         height: 12vh;
         width: 100vw;
     }
-    
+
     #fullRow {
         margin: 0;
         margin-top: 45vh;
     }
-    
+
     .mobile_navbar {
         display: none;
     }
-    
+
     .container-fluid {
         padding-right: 0;
         padding-left: 0;
@@ -243,17 +243,17 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     #menucol {
         width: 100vw;
         position: fixed;
         z-index: 99;
     }
-    
+
     .desktop_navbar {
         display: none;
     }
-    
+
     .mobile_navbar {
         width: 100%;
         display: inherit;
@@ -261,7 +261,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         background-color: #FFFFFF;
         border-bottom: solid 2px black;
     }
-    
+
     div.transbox {
         margin-top: -90%;
         margin-left: auto;
@@ -278,7 +278,7 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         font-size: 200%;
         text-align: center;
     }
-    
+
     #opener {
         border-radius:0;
         position:fixed;
@@ -291,15 +291,15 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         padding-left: 1em;
         float: left;
     }
-    
+
     .logo {
         float: right;
     }
-    
+
     .invisibleMenu{
         display:none;
     }
-    
+
     #slide-panel {
         height: 100vh;
         padding: 2em;
@@ -313,11 +313,11 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         overflow-y: auto;
         overflow-x: auto;
     }
-    
+
     #slide-panel ul {
         padding-top: 4em;
     }
-    
+
      #slide-panel ul a {
         text-decoration: none;
         color: #B4191B;
@@ -334,29 +334,29 @@ $shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
         position:absolute;
         text-align:left;
     }
-    
+
     #advisory  {
-         padding-left:0; 
+         padding-left:0;
          text-align:left;
          display:inline-block;
     }
 
-    
+
     .memberCol{
         border:solid lightgray 2px;
         clear:both;
         display:flex;
     }
-    
+
     .memberPosition{
         font-weight:bold;
         font-size:15px;
     }
-    
+
     .memberName{
         font-weight:bold;
     }
-    
+
     .responsiveIframe{
         height:100%;
         width:1000px;
