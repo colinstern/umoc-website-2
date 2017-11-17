@@ -1,0 +1,114 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3407433, 2017-06-15T17:36:06-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Altair-ExtraBold by Zetafonts
+ * URL: https://www.myfonts.com/fonts/zetafonts/altair/extrabold/
+ * Copyright: Copyright \(c\) 2016 by Zetafonts. All rights reserved.
+ * Licensed pageviews: Unlimited
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3407433
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+@font-face {font-family: 'Altair-ExtraBold';src: url('webfonts/33FE49_0_0.eot');src: url('webfonts/33FE49_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/33FE49_0_0.woff2') format('woff2'),url('webfonts/33FE49_0_0.woff') format('woff'),url('webfonts/33FE49_0_0.ttf') format('truetype');}
+
+
+.mdl-layout-title{
+    font-family: 'MontanaRough' !important;
+    font-weight: 100 !important;
+}
+
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3407432, 2017-06-15T17:31:22-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: MontanaTypeface by Alex Couture
+ * URL: https://www.myfonts.com/fonts/alex-couture/montana-typeface/regular/
+ * 
+ * Webfont: MontanaRough by Alex Couture
+ * URL: https://www.myfonts.com/fonts/alex-couture/montana-typeface/rough/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3407432
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2016 by Alexcouture. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/33fe48");
+
+ 
+@font-face {font-family: 'MontanaTypeface';src: url('webfonts/33FE48_0_0.eot');src: url('webfonts/33FE48_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/33FE48_0_0.woff2') format('woff2'),url('webfonts/33FE48_0_0.woff') format('woff'),url('webfonts/33FE48_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'MontanaRough';src: url('webfonts/33FE48_1_0.eot');src: url('webfonts/33FE48_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/33FE48_1_0.woff2') format('woff2'),url('webfonts/33FE48_1_0.woff') format('woff'),url('webfonts/33FE48_1_0.ttf') format('truetype');}
+
+
+.absolute-text {
+    font-family: 'MontanaRough' !important;
+    font-weight: 100 !important;
+    font-size: 400% !important;
+    line-height: normal;
+    padding:3vh;
+    overflow: visible !important;
+}
+
+h1 {
+    font-family: 'MontanaRough';
+    font-weight: 100 !important;
+    font-size: 400% !important;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    font-family: 'MontanaRough';
+    font-weight: 100 !important;
+    font-size: 250% !important;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500 !important;
+}
+
+h3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300 !important;
+}
+
+.mdl-card__supporting-text {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500 !important;
+}
+
+.mdl-button{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500 !important;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500 !important;
+    text-overflow: ellipsis;
+}

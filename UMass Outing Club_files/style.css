@@ -1,0 +1,586 @@
+.staticon{
+    height: 16px;
+    width: 16px;
+    margin:auto !important;
+}
+
+.mdl-layout-title{
+        font-size: 200% !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.adminbtn{
+    background-color:#3F51B5 !important;
+    color:#ffffff !important;
+    height:45px !important;
+    width:100% !important;
+}
+
+.full {
+    margin-top: 0 ;
+}
+
+.actgrid {
+    margin: 5px;
+    float: left !important;
+    max-width: 330px;
+    width:90% !important;
+    height: 380px;
+}
+.profgrid{
+    margin-bottom: 3%!important;
+    float: left !important;
+}
+
+.center{
+    margin-left: auto ;
+    margin-right: auto ;
+}
+h2{
+    text-align: left ;
+    margin-left: 0% ;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    overflow-x:hidden;
+
+}
+
+.container-fluid {
+    width: 100vw;
+    height: 100%;
+}
+
+.content.col {
+    width: 100%;
+    margin-left:1%;
+}
+
+.loginContent{
+    text-align:center;
+}
+
+.col*{
+    text-align:middle;
+}
+
+#advisory  {
+ padding-left:0; 
+ text-align:left;
+ display:inline-block;
+}
+
+#logo{
+    width:80%;
+    margin:0 auto;
+    margin-bottom:10%;
+    display:inline-block;
+}
+
+.header {
+    width: 100vw;
+    height: 88vh;
+ }
+
+.bannerImage {
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.acTitle{
+    text-align: center ;
+    font-size:large;
+}
+
+.error{
+    color:red;
+    font-size:xx-large;
+}
+
+.message{
+    color:green;
+    font-size:xx-large;
+}
+
+/**********************************/
+/*Contact Us Styling Here*/
+.responsiveIframe{
+    height:1000px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+/*End of Contact Us Styling*/
+
+/**********************************/
+/*Eboard Page Styling*/
+
+/*.member{
+    margin-bottom: 20px;
+    text-align: center;
+    backgroung=d
+}*/
+
+.memberPosition{
+    font-size: 150%;
+}
+
+/**/
+.memberName{
+   font-size: 200%;
+}
+
+.eboardImg{
+    /*border-radius:50%;*/
+    max-width: 100%;
+    max-height: 100%;
+    width:24vw;
+    height:32vw;
+    margin:auto;
+    margin-right:2%;
+    display:inline-block;
+}
+
+/*.memberContainer{
+    margin:2.5% 0;
+    float:left;
+    margin-left:2%;
+    height:100%;
+    padding-right:2%;
+    display:inline-block;
+    border-right:solid lightgray 2px;
+}*/
+/*.memberBioContainer{
+    float:left;
+    text-align:left;
+    margin-left:2%;
+}*/
+
+/*End of Eboard Page Styling*/
+.center-table {
+  display: table;
+  height:100%;
+}
+
+.center-table p {
+  display: table-cell;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.content{
+    /*z-index:-1;*/
+}
+
+html,body{
+    height:100%;
+    width:100% !important;
+}
+
+.upcomingTable th{
+    text-align:center;
+}
+
+.upcomingTable{
+    /*display:inline-block;*/
+    width:100% ;
+    table-layout:fixed;
+}
+
+.cssbutton{
+  display:block;
+  font-size:x-large;
+  margin:2%;
+  text-decoration:none ;
+}
+
+.cssbutton:hover{
+    font-weight:bold;
+}
+
+.loginContent input{
+    width:80%;
+    padding:1%;
+    margin:1%;
+    text-align:center;
+}
+
+/*profile page styling*/
+.profile {
+    width: 70%;
+    background-color: #ffe5e5;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.profile h1, h2, h3{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.profile p{
+    text-align:left;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.fit{
+    width: 50% !important;
+    margin-right: 0%;
+}
+/*end of profile page styling.*/
+
+h1{
+    text-align:middle;
+}
+
+input{
+    text-align:center;
+}
+
+.editingForm {
+    /*float: left;*/
+    border: 0.1em solid black;
+    border-collapse: collapse;
+    width: 90%;
+    height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    empty-cells: hide;
+    table-layout: fixed;
+}
+
+.editingForm th {
+    height: 2em;
+    text-align: left;
+    padding-left: 0.5em;
+    background-color: #d4af37;
+    color: white;
+}
+
+.editingForm tr {
+    height: 3em;
+}
+
+.editingForm td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.editingForm tr td:first-child {
+    padding-left: 0.5em;
+}
+
+.editingForm td .textInput {
+    padding-right: 0.5em;
+    margin: 0 0.4em 0 1.2em;
+    width: 90%;
+    text-align: left;
+}
+
+.editingForm td select {
+    margin-left: 0.6em;
+}
+
+.editingForm td .textInput {
+    margin-left: 0.6em;
+}
+
+.editingForm td textarea {
+    margin-left: 0.6em;
+    padding-right: 0.5em;
+    width: 90%;
+    height: 10em;
+}
+
+input.button {
+    width: 12em;
+    height: 2.75em;
+    text-align: center;
+    background-color: rgba(15,19,76, 1);
+    color: white;
+}
+
+input.red {
+    width: 12em;
+    height: 2.75em;
+    text-align: center;
+    background-color: rgba(255,0,0, 1);
+    color: white;
+}
+
+.clickable td a {
+  display: block;
+}
+
+.footer {
+    float: left;
+    width: 50%;
+    height: 10vh;
+    background-color: white;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer p {
+    padding-top: 0.5vh;
+}
+
+.iconWrapper {
+    padding-top: 1vh;
+}
+
+.footer i {
+    color: #000000;
+    padding-right: 15px;
+}
+
+.bigger {
+    width: 100%;
+}
+
+/* Responsive Styling */
+/* iphone 5 styling */
+@media only screen and (max-width: 330px) {
+    .smallheader{
+        margin-left: -8%;
+    }
+    .mdl-layout-title{
+        font-size: 150% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    tr.smallerTH {
+        font-size: 50%;
+    }
+    
+    .logincard {
+        float:left;
+        margin-bottom: 5vh;
+        margin-left: 5%;
+    }
+    .logina{
+        margin-top:-30vh;
+    }
+    
+    .resize{
+        width: 100% !important; 
+        margin-bottom: 3vh !important;
+    }
+    
+    .mobileheader{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top:0%;
+    }
+    
+    .editingForm td {
+        font-size: 48%;
+    }
+    
+    .iconWrapper {
+        padding-top: 1vh;
+        background-color: white;
+        width: 25%;
+        height: 68%;
+        opacity: 0.7;
+        float: right;
+        border-radius: 100px / 50px;
+    }
+    
+    .spacemobile{
+        margin-left:auto;
+        margin-right:auto; 
+        width:5% !important;
+    }
+    .infocard {
+        margin-left:5% !important;
+        width:90% !important;
+        margin-right:auto !important;
+        float:left;
+    }
+    .profhead{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top:13vh;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .actgrid {
+        margin: 5px;
+        float: left !important;
+        max-width: 330px;
+        width:90% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        height: 380px;
+    }
+    .shiftdown{
+        max-width:80%;
+        margin-top: 40% !important;
+    }
+    .marginadjust{
+        margin-left: -15% !important;
+        width: 130% !important;
+    }
+}
+
+.mdl-layout__obfuscator{
+    position:fixed !important;
+    top:0 !important;
+}
+
+@media only screen and (min-width: 734px) and (max-width: 829px){
+    .logincard {
+        float:left;
+        margin-top:-30vh;
+        margin-right: 0%;
+        
+    }
+    .logina{
+        margin-left: 5%;
+    }
+}
+
+
+@media only screen and (min-width: 830px) {
+    .logincard {
+        float:left;
+        margin-top:-30vh;
+        margin-right: 0%;
+        
+    }
+    .logina{
+        margin-left: 5%;
+    }
+    .shiftdown{
+        max-width:80%;
+        margin-top: 10% !important;
+    }
+}
+
+.logincard{
+    max-width: 90%;
+}
+
+@media only screen and (min-width: 501px) {
+    .reduce {
+        margin-left: 0% !important;
+    }
+    
+    .logincard {
+        float:left;
+        margin-bottom: 5vh;
+        margin-left: 5%;
+    }
+    .logina{
+        margin-top:-30vh;
+    }
+    .spacedesk{
+        margin-left:auto;
+        margin-right:auto; 
+        width:2% !important;
+    }
+    
+    .deskheader{
+        margin-left: 5.5% !important;
+        margin-top:0%;
+    }
+    .infocard {
+        margin-left:5% !important;
+        margin-right:auto !important;
+        float:left;
+    }
+    .profhead{
+        margin-left:5%; 
+        width:100%;
+        margin-top:13vh;
+    }
+    
+    .shiftdown{
+        max-width:80%;
+        margin-top: 20% !important;
+    }
+    .resize{
+        width: 45% !important;
+    }
+    
+    
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+/* Article Styling */
+.demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #3F51B5;
+  flex-shrink: 0;
+}
+
+.demo-main {
+  margin-top: -35vh;
+  flex-shrink: 0;
+}
+
+.demo-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.demo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+  margin-top: 10%;
+}
+
+.demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+}
+
+.demo-content h3 {
+  margin-top: 48px;
+}
+
+.demo-footer {
+  padding-left: 40px;
+}
+
+.demo-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
+
+.demo-contentb p,h1,h2,h3 {
+    margin-left: 5%;
+    margin-right:5%;
+}
